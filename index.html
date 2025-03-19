@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Centered QR Code</title>
+            <style>
+                body, html {
+                    height: 100%;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .qr-container {
+                    width: 200px;
+                    height: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    width: auto;
+                    height: auto;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="qr-container">
+                <img src="sensitive.png" alt="QR Code" id="qr-code">
+            </div>
+        </body>
+        </html>
